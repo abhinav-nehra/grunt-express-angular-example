@@ -1,5 +1,5 @@
 -#!/bin/sh      
-ssh ubuntu@ec2-34-251-176-232.eu-west-1.compute.amazonaws.com        
+ssh ubuntu@ec2-34-251-176-232.eu-west-1.compute.amazonaws.com <<EOF        
  cd /home/ubuntu/myproject  
  git pull origin develop
  npm install --production       
