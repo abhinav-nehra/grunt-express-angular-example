@@ -1,5 +1,6 @@
 grunt-express-angular-example
 =============================
+
 This is for sample only
 
 Sample app that shows the usage of [grunt-express](https://github.com/blai/grunt-express) v1.0.
