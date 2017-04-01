@@ -1,6 +1,6 @@
 -#!/bin/sh      
-ssh userName@development-server-ip <<EOF        
- cd /your-project-path  
+ssh ubuntu@ec2-34-251-176-232.eu-west-1.compute.amazonaws.com        
+ cd /home/ubuntu/myproject  
  git pull       
  npm install --production       
  pm2 restart all
