@@ -1,7 +1,7 @@
 -#!/bin/sh      
 ssh ubuntu@ec2-34-251-176-232.eu-west-1.compute.amazonaws.com        
  cd /home/ubuntu/myproject  
- git pull       
+ git pull origin develop
  npm install --production       
  pm2 restart all
  exit       
